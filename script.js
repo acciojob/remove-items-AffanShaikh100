@@ -1,11 +1,6 @@
-//your JS code here. If required.
-function remove(){
-let ele = document.getElementById("colorSelect");
+//your JS code here. If requi
 
-for(let i=0; i<ele.length;i++)
-	{
-		if(ele.value == ele[i]){
-			ele.remove[i];
-		}
-	}
+function remove(){
+	let ele = document.getElementById("colorSelect");
+	ele.remove(ele.selectedindex);
 }
